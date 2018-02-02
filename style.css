@@ -2,6 +2,8 @@
   font-family: "Skia";
   src: url("./Skia.ttf");
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .content > div {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -17,5 +19,5 @@ h3 {
 }
 
 h3, p {
-  font-family: "Skia"
+  font-family: "Skia", "Open Sans", sans-serif
 }
