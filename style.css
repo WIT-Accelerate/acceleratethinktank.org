@@ -1,25 +1,21 @@
-body {
-  background: linear-gradient(to bottom right, #DA4A2A 0%, #DA4A2A 100%)
+@font-face {
+  font-family: "Skia";
+  src: url("./Skia.ttf");
 }
-
-.header-row {
-  background: #FFF
+.content > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.header-row > div {
-  padding-top: 10px;
+.content > div:first-of-type {
+  margin-top: 10px;
 }
-
-.body-container {
-  margin-top: 30px;
-  background: #fff;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+.content > div:last-of-type {
+  margin-bottom: 20px;
 }
-
-.body-row-1 > div {
-  padding: 0px;
-}
-
 h3 {
   color: #E57D23
+}
+
+h3, p {
+  font-family: "Skia"
 }
