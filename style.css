@@ -18,6 +18,33 @@ h3, p {
   font-family: "Skia", "Open Sans", sans-serif
 }
 
+.body-image{
+  width: 30%;
+  min-width: 200px;
+  display: flex;
+  float: left;
+}
+
+
+.body-table{
+  width: 40%;
+  float: center;
+  padding-left: 50%
+  padding-right: 50%;
+}
+
+.body-text{
+  padding-left: 3%;
+  width: 70%;
+  min-width: 200px;
+  display: flex;
+  float: right;
+}
+
+.speaker{
+  display: inline-block;
+}
+
 .register-button-row {
   display: flex;
   flex-direction: row;
