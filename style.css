@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 .content > div {
   margin-top: 5px;
@@ -15,7 +15,7 @@ h3 {
 }
 
 h3, h4, p {
-  font-family: "Skia", "Open Sans", sans-serif;
+  font-family: "Work Sans", "Skia", sans-serif;
 }
 
 .header {
